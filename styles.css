@@ -1,8 +1,26 @@
-.cats-and-coffee {
+
+.cats.and.coffee {
+	position: relative;
+	font-size: 175px;
+	font-family: 'boiga-fill';
+	font-weight: 300;
+	font-style: normal;
+	color:#231f20;
+	text-align: center;
+	display: inline-block;
+}
+
+.cats.and.coffee {
+	text-align: center;
+	display: block;
+	margin: 4;
+}
+
+/*.vegan.cafe {
   	
 
   	position: relative;
-  	font-size: 60px;
+  	font-size: 40px;
   	font-family: 'yerk', sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -10,38 +28,42 @@
   	text-align: center;
   	display: inline-block;
 }
-.cats-and-coffee {
+.vegan.cafe {
     text-align: center;
     display: block;
     margin: 4;
 
-}
+} 
+	*/
 
 .container-fluid{
 	background-color: white;
-	padding-right: 2%;
-	outline: black sold 5px;
+	width: 100%;
+	padding: 20px;
+	outline: #231f20 sold 5px;
 }
 
 .nav-link {
 	color: black;
-	font-family: "sofia-pro-comp";
+	font-family: 'sofia-pro-comp';
 	font-size: 40px;
 }
 
-.nav-linkactive {
+.nav-link.active {
 	color: #a32939;
-	text-align: center;
-	text-decoration: solid underline #a32939;
-	font-family: "sofia-pro-comp";
+	text-align: left;
+	text-decoration: solid underline #a32939; 
+	font-family: 'sofia-pro-comp';
 	font-size: 40px;
 	font-weight: normal;
 }
 
 
-.catsandcoffeelogo {
+
+
+.logo {
 	vertical-align: right;
-	height: 100px;
+	height: 111px;
 	width: auto;
 
 }
@@ -49,7 +71,9 @@
 .bristol {
 	position: relative;
 	font-size: 45px;
-	font-family: "sofia-pro-comp";
+	font-family: 'sofia-pro-comp';
+	font-weight: 350;
+	font-style: italic;
 	color: #231f20;
 	text-align: center;
 	display: inline-block;
@@ -59,13 +83,13 @@
 .bristol {
 	text-align: center;
 	display: block;
-	margin: 10;
+	margin: 0;
 }
 
 .location {
 	position: relative;
-	font-size: 30px;
-	font-family: "sofia-pro-comp";
+	font-size: 45px;
+	font-family: 'sofia-pro-comp';
 	color: #231f20;
 	text-align: center;
 	display: inline-block;
@@ -74,7 +98,15 @@
 .location {
 	text-align: center;
 	display: block;
-	margin: 10;
+	margin: 0;
+}
+
+.meet.our.furry.friends {
+	position: relative;
+	font-size: 30px;
+	font-family: 'yerk';
+	color: #231f20;
+	text-align: center;
 }
 
 .title-section {
@@ -107,7 +139,7 @@ text-align: center;
 display: inline-block;
 }
 
-.project-title {
+.cat-title {
 
   	position: relative;
   	font-size: 30px;
