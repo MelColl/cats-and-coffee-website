@@ -7,13 +7,42 @@
 	font-weight: 400;
 	font-style: normal;
   	color: #231f20;
-  	text-align: right;
+  	text-align: center;
   	display: inline-block;
 }
 .cats-and-coffee {
-    text-align: right;
+    text-align: center;
     display: block;
     margin: 4;
+
+}
+
+.container-fluid{
+	background-color: white;
+	padding-right: 2%;
+	outline: black sold 5px;
+}
+
+.nav-link {
+	color: black;
+	font-family: "sofia-pro-comp";
+	font-size: 40px;
+}
+
+.nav-linkactive {
+	color: #a32939;
+	text-align: center;
+	text-decoration: solid underline #a32939;
+	font-family: "sofia-pro-comp";
+	font-size: 40px;
+	font-weight: normal;
+}
+
+
+.catsandcoffeelogo {
+	vertical-align: right;
+	height: 100px;
+	width: auto;
 
 }
 
@@ -22,13 +51,13 @@
 	font-size: 45px;
 	font-family: "sofia-pro-comp";
 	color: #231f20;
-	text-align: left;
+	text-align: center;
 	display: inline-block;
 
 }
 
 .bristol {
-	text-align: right;
+	text-align: center;
 	display: block;
 	margin: 10;
 }
@@ -38,12 +67,12 @@
 	font-size: 30px;
 	font-family: "sofia-pro-comp";
 	color: #231f20;
-	text-align: right;
+	text-align: center;
 	display: inline-block;
 }
 
 .location {
-	text-align: right;
+	text-align: center;
 	display: block;
 	margin: 10;
 }
