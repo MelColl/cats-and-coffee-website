@@ -2,8 +2,10 @@
   	
 
   	position: relative;
-  	font-size: 120px;
-  	font-family: 'Emilys Candy';
+  	font-size: 60px;
+  	font-family: 'yerk', sans-serif;
+	font-weight: 400;
+	font-style: normal;
   	color: #231f20;
   	text-align: left;
   	display: inline-block;
@@ -29,8 +31,8 @@ body {
 
 .display-1 {
 position: relative;
-font-size: 100px;
-font-family: 'Emilys Candy';
+font-size: 60px;
+font-family: 'yerk', sans-serif ;
 color: #231f20;
 text-align: center;
 
@@ -39,7 +41,7 @@ text-align: center;
 	
 position: relative;
 font-size: 30px;
-font-family: 'Sour Gummy';
+font-family: 'sofia-pro-comp', sans-serif;
 color: #572c2c;
 text-align: center;
 display: inline-block;
@@ -49,7 +51,7 @@ display: inline-block;
 
   	position: relative;
   	font-size: 30px;
-  	font-family: 'Sour Gummy';
+  	font-family: 'sofia-pro-comp', sans-serif;
   	color: #450a0a;
   	white-space: pre-wrap;
   	display: inline-block;
@@ -57,15 +59,15 @@ display: inline-block;
 
 .figure-caption {
 	font-size: 21px;
-  	font-family: 'Sour Gummy';
+  	font-family: 'sofia-pro-comp', sans-serif;
   	color: #450a0a;
   	white-space: pre-wrap;
   	
 }
 
 .summary {
-	font-size: 70px;
-  	font-family: 'Emilys Candy';
+	font-size: 60px;
+  	font-family: 'yerk';
 color: #9d2727;
   	white-space: pre-wrap;
 	text-align: center;
@@ -78,8 +80,8 @@ color: #9d2727;
     margin: 0 auto;
 }
 .references {
-	font-size: 70px;
-  	font-family: 'Emilys Candy';
+	font-size: 60px;
+  	font-family: 'yerk';
 color: #9d2727;
   	white-space: pre-wrap;
 	text-align: center;
