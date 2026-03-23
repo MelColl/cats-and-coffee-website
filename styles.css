@@ -1,14 +1,14 @@
-.mel-collins {
+.cats-and-coffee {
   	
 
   	position: relative;
   	font-size: 120px;
   	font-family: 'Emilys Candy';
-  	color: #450a0a;
+  	color: #231f20;
   	text-align: left;
   	display: inline-block;
 }
-.mel-collins {
+.cats-and-coffee {
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -16,7 +16,7 @@
 }
 
 .title-section {
-    background-color: #c94c4c;
+    background-color: #376d3f;
     width: 100%;              
     padding: 50px 0;          
     text-align: center;       
@@ -24,14 +24,14 @@
 }
 
 body {
-    background-color:#d6a3a3;
+    background-color:#ffffff;
 }
 
 .display-1 {
 position: relative;
 font-size: 100px;
 font-family: 'Emilys Candy';
-color: #9d2727;
+color: #231f20;
 text-align: center;
 
 }
