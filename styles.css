@@ -1,0 +1,97 @@
+.mel-collins {
+  	
+
+  	position: relative;
+  	font-size: 120px;
+  	font-family: 'Emilys Candy';
+  	color: #450a0a;
+  	text-align: left;
+  	display: inline-block;
+}
+.mel-collins {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.title-section {
+    background-color: #c94c4c;
+    width: 100%;              
+    padding: 50px 0;          
+    text-align: center;       
+    box-sizing: border-box;   
+}
+
+body {
+    background-color:#d6a3a3;
+}
+
+.display-1 {
+position: relative;
+font-size: 100px;
+font-family: 'Emilys Candy';
+color: #9d2727;
+text-align: center;
+
+}
+.lead {
+	
+position: relative;
+font-size: 30px;
+font-family: 'Sour Gummy';
+color: #572c2c;
+text-align: center;
+display: inline-block;
+}
+
+.project-title {
+
+  	position: relative;
+  	font-size: 30px;
+  	font-family: 'Sour Gummy';
+  	color: #450a0a;
+  	white-space: pre-wrap;
+  	display: inline-block;
+}
+
+.figure-caption {
+	font-size: 21px;
+  	font-family: 'Sour Gummy';
+  	color: #450a0a;
+  	white-space: pre-wrap;
+  	
+}
+
+.summary {
+	font-size: 70px;
+  	font-family: 'Emilys Candy';
+color: #9d2727;
+  	white-space: pre-wrap;
+	text-align: center;
+  	display: inline-block;
+
+}
+.summary { 
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.references {
+	font-size: 70px;
+  	font-family: 'Emilys Candy';
+color: #9d2727;
+  	white-space: pre-wrap;
+	text-align: center;
+  	display: inline-block;
+	
+}
+.references {
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+
