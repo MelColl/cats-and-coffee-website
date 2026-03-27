@@ -10,3 +10,14 @@ setTimeout(() => {
 
 
 }, 300);
+
+const MenuDrinksFinalJpg = document.getElementById("menuDrink");
+
+setTimeout(() => {
+
+    if (MenuDrinksFinalJpg) {
+        MenuDrinksFinalJpg.classList.add("fade-in");
+    }
+
+
+}, 300);
