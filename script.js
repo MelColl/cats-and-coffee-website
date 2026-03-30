@@ -9,7 +9,7 @@ setTimeout(() => {
     }
 
 
-}, 300);
+}, 500);
 
 const MenuDrinksFinalJpg = document.getElementById("menuDrink");
 
@@ -20,4 +20,4 @@ setTimeout(() => {
     }
 
 
-}, 300);
+}, 500);

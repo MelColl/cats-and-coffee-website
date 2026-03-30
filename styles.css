@@ -275,3 +275,10 @@ Food Carousel
 	align-items: center;
 	align-content: center;
 }
+
+.aboutFood {
+	text-align: center;
+	font-size: 35px;
+	font-family: 'sofia-pro-comp', sans-serif;
+	color: #231f20
+}
