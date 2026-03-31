@@ -1,6 +1,6 @@
 .cats.and.coffee {
 	position: relative;
-	font-size: 175px;
+	font-size: auto;
 	font-family: 'boiga-fill';
 	font-weight: 300;
 	font-style: normal;
@@ -14,6 +14,7 @@
 	display: block;
 	margin: 4;
 }
+
 
 /*.vegan.cafe {
   	
@@ -69,7 +70,7 @@
 
 .bristol {
 	position: relative;
-	font-size: 45px;
+	font-size: auto;
 	font-family: 'sofia-pro-comp';
 	font-weight: 350;
 	font-style: italic;
@@ -87,7 +88,7 @@
 
 .location {
 	position: relative;
-	font-size: 45px;
+	font-size: auto;
 	font-family: 'sofia-pro-comp';
 	color: #231f20;
 	text-align: center;
@@ -258,7 +259,7 @@ Animation
 Food Carousel
 ****/
 
-.container.py-3 { 
+.container-fluid { 
 	display: flex;
 	justify-content: center;
 	text-align: center !important;
@@ -266,14 +267,20 @@ Food Carousel
 	align-content: center;
 }
 
-.carousel-item {
-	width: 97%
+.carousel-inner {
+	display: flex;
+
 }
 
-.carousel img {
-	width: 70%;
-	align-items: center;
+.carousel-item img {
+	max-width: 80%;
+	margin: 0 auto;
 	align-content: center;
+}
+
+.d-block-w-100 {
+	width: 80%;
+	align-items: center;
 }
 
 .aboutFood {
@@ -281,4 +288,27 @@ Food Carousel
 	font-size: 35px;
 	font-family: 'sofia-pro-comp', sans-serif;
 	color: #231f20
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%) sepia(100%) saturate(500%) hue-rotate(0deg) brightness(0%) contrast(100%);
+}
+
+/****
+Find us
+****/
+iframe {
+	border-radius: 10px;
+	align-content: center;
+	text-align: center;
+}
+
+/*****
+Footer 
+*****/
+
+.custom-footer {
+	background-color: #376d3f !important;
+
 }

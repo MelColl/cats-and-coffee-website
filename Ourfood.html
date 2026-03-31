@@ -25,7 +25,7 @@
   <!-- Top-->
   <div class="title-section">
     <h1 class="cats and coffee"> cats and coffee </h1>
-    <h1 class="bristol"> The only Vegan Cat Cafe Located in Bristol </h1>
+    <h1 class="bristol"> The only vegan cat cafe located in Bristol </h1>
     <h1 class="location"> Find us at Unit 11, Wapping Warf, Bristol BS1 6GW </h1>
   </div>
 
@@ -44,12 +44,15 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="Ourfood.html">Our food </a>
           </li>
-         
+         <li class="nav-item">
+            <a class="nav-link" href="Findus.html">Find us</a>
+          </li>
 
         </ul>
       </div>
     </div>
   </nav>
+</body>
 
   <main class="container">
     <!-- Menus-->
@@ -71,100 +74,120 @@
     <script src="./script.js"></script>
 
 
-    <!-- photos of food on carousel-->
-     <div class="carousel-wrapper">
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
-          aria-label="Slide 4"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
-          aria-label="Slide 5"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
-          aria-label="Slide 6"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6"
-          aria-label="Slide 7"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7"
-          aria-label="Slide 8"></button>
+    
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="container-fluid py-3">
+  <div class="carousel-inner">
 
-       </div>
-       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./images/AvocadoToast-Food.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Breakfast</h5>
-            <p>Avocado on toast</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/Pancakes-Food.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Breakfast</h5>
-            <p>Vegan buttermilk pancakes</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/VeganBurger-Food.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Brunch</h5>
-            <p>Vegan plant burger</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/Salad-Food.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Brunch</h5>
-            <p>Mediterranean salad</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/RaspberryLemonade-Drinks.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Drinks</h5>
-            <p>Rasberry lemonade</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/GingerMojito-Drinks.jpeg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Drinks</h5>
-            <p>Ginger "mojito"</p>
-          </div>
-        </div>
-      <div class="carousel-item">
-        <img src="./images/Fries-Side.jpeg" class="d-block w-100"  alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Sides</h5>
-          <p>Salt and pepper fries</p>
-        </div>
-      </div>
-    <div class="carousel-item">
-      <img src="./images/Wings-Side.jpeg" class="d-block w-100" alt="...">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="./images/AvocadoToast-Food.jpeg" class="d-block w-100" alt="Slide 1">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Sides</h5>
-        <p>Vegan boneless "chicken wings"</p>
+        <h5>Avocado on toast</h5>
       </div>
     </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="./images/Pancakes-Food.jpeg" class="d-block w-100" alt="Slide 2">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Vegan buttermilk pancakes </h5>
+      </div>
     </div>
-  </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="./images/VeganBurger-Food.jpeg" class="d-block w-100" alt="Slide 3">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Vegan plant burger </h5>
+      </div>
     </div>
+
+    <!-- Slide 4 -->
+    <div class="carousel-item">
+      <img src="./images/Salad-Food.jpeg" class="d-block w-100" alt="Slide 4">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Mediterranean salad</h5>
+      </div>
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="carousel-item">
+      <img src="./images/RaspberryLemonade-Drinks.jpeg" class="d-block w-100" alt="Slide 5">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Raspberry Lemonade</h5>
+      </div>
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="carousel-item">
+      <img src="./images/GingerMojito-Drinks.jpeg" class="d-block w-100" alt="Slide 6">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Ginger "mojito"</h5>
+      </div>
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="carousel-item">
+      <img src="./images/Fries-Side.jpeg" class="d-block w-100" alt="Slide 7">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Salt and pepper fries</h5>
+      </div>
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="carousel-item">
+      <img src="./images/Wings-Side.jpeg" class="d-block w-100" alt="Slide 8">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Vegan boneless "chicken wings"</h5>
+      </div>
+    </div>
+
   </div>
+
+  <!-- Controls / Arrows -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
    <div class="container py-3">
-      <h1 class="aboutFood"> Our selction of food is created with love and all ingredients are sourced ethically and locally, we hope you love every bite! </h1>
+      <h1 class="aboutFood"> Our selection of food is created with love and all ingredients are sourced ethically and locally, we hope you love every bite! </h1>
     </div>
 
   </main>
+
+  <footer class="custom-footer text-white pt-4 pb-2 mt-5">
+  <div class="container text-center text-md-start">
+    <div class="row">
+
+      <!-- About -->
+      <div class="col-md-6 mb-3">
+        <h5>cats and coffee</h5>
+        <p>The only vegan cat cafe located in Bristol</p>
+        <p> Unit 11 Unit 11, Wapping Warf, Bristol BS1 6GW</p>
+      </div>
+
+      <!-- Links -->
+      <div class="col-md-6 mb-3">
+        <h5>Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="Ourfood.html" class="text-white text-decoration-none">Our food</a></li>
+          <li><a href="Findus.html" class="text-white text-decoration-none">Find us</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="text-center pt-3 border-top">
+      <p class="mb-0">© 2026 cats and coffee Ltd - All rights reserved.</p>
+    </div>
+  </div>
+  </footer>
+
